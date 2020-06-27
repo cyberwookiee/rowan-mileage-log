@@ -1,0 +1,172 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+@import '~@fortawesome/fontawesome-free/css/all.css';
+@import '~normalize.css/normalize.css';
+@import '~@blueprintjs/core/lib/css/blueprint.css';
+@import '~@blueprintjs/icons/lib/css/blueprint-icons.css';
+@import '~@blueprintjs/datetime/lib/css/blueprint-datetime.css';
+@import '~@blueprintjs/table/lib/css/table.css';
+
+#root {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  color: white;
+  height: 100vh;
+  background-color: #232c39;
+  background-image: linear-gradient(
+    45deg,
+    rgba(0, 216, 255, 0.5) 10%,
+    rgba(0, 1, 127, 0.7)
+  );
+  font-family: Arial, Helvetica, Helvetica Neue, serif;
+  overflow-y: hidden;
+}
+
+h2 {
+  margin: 0;
+  font-size: 2.25rem;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  color: #fff;
+}
+
+p {
+  font-size: 24px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  opacity: 0.75;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mileage-log {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+}
+
+.mileage-log-black {
+  color: black;
+  font-size: 10px;
+}
+
+.mileage-log-title {
+  text-align: center;
+  height: 40px;
+}
+
+.mileage-log-body {
+  display: flex;
+  flex-flow: column;
+  flex-grow: 1;
+}
+
+.mileage-log-header {
+  text-align: left;
+  height: 300px;
+}
+
+.mileage-log-footer {
+  height: 150px;
+}
+
+.mileage-log-table {
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.settings {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+}
+
+.settings-table {
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.settings-footer {
+  margin-top: 10px;
+}
+
+.settings-header {
+  margin-bottom: 10px;
+}
+
+.spaced-button {
+  margin: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.underline {
+  border-bottom: 1px solid;
+}
+
+.borders {
+  border: 1px solid;
+}
+
+.height-50 {
+  height: 50px;
+}
+
+.height-75 {
+  height: 75px;
+}
+
+.height-100 {
+  height: 100px;
+}
+
+.height-150 {
+  height: 150px;
+}
+
+.height-200 {
+  height: 200px;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.font-large {
+  font-size: large;
+}
+
+.invert-colors {
+  color: #232c39;
+  background-color: white;
+}

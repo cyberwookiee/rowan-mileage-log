@@ -1,0 +1,12 @@
+.container {
+  text-align: center;
+   height: 100vh;
+}
+
+.container h2 {
+  font-size: 5rem;
+}
+
+.container a {
+  font-size: 1.4rem;
+}
